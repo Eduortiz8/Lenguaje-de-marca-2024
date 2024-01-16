@@ -12,8 +12,8 @@ body {
     background-color: #eb0909;
     background-image: url("cabecera.jpg");
     background-repeat: no-repeat;
-    margin: auto;
-    padding: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     text-align: center;
     border-radius: 5%;
 }

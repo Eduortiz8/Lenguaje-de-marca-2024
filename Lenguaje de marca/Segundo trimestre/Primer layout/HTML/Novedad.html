@@ -11,12 +11,13 @@
 
 <body>
     <div class="header">
-        <h1>Dragon ball</h1>
+        <img class="a" src="logo1.png" alt="logo">
+        <img class="a" src="bolas de dragon.png" alt="bolasdedragon">
     </div>
     <div class="topnav">
         <a href="index.html">inicio</a>
         <a href="Novedad.html">Novedad</a>
-        <a href="#boladedragon">Bola de dragon</a>
+        <a href="Boladedragon.html">Bola de dragon</a>
         <a href="#DragonballZ">Dragon ball Z</a>
         <a href="#DragonballSuper">Dragon ball Super</a>
         <a href="#DragonballGT">Dragon ball GT</a>
@@ -26,17 +27,18 @@
     <div row>
         <div class=" column side">
             <h2>menus</h2>
-            <nav>
-                <ul class="a">
-                    <li><a href="#DragonballDaiman">Dragon ball Daiman</a >
-					<li><a href="#Descripcion">Descripcion</a></li>
-                    <li><a href="#Fecha">'Fecha de estreno y dónde verla</a></li>
-                    </li>
-                </ul>
-            </nav>
+            <div class="dropdown">
+                <button class="dropbtn">Dragon ball Daiman</button>
+                <div class="dropdown-content" style="left: 0;">
+                    <a href="#Fecha">'Fecha de estreno y dónde verla</a>
+                    <a href="#Trailer">Tráiler</a>
+                    <a href="#Argumentos">Argumentos</a>
+                </div>
+            </div>
         </div>
+        <h1 id="inicio"></h1>
         <div class="column middle">
-            <h2>Dragon ball: Daima: Fecha de estreno aproximada, <br> argumento, trailer e imagenes
+            <h2 id="Fecha">Dragon ball: Daima: Fecha de estreno aproximada, <br> argumento, trailer e imagenes
             </h2>
             <h4>Con nada menos que un tráiler se ha anunciado un nuevo anime del shonen más legendario de la historia. <br> Dragon Ball tendrá una nueva historia canónica tras 'Super' en 2024.
             </h4>
@@ -58,10 +60,11 @@
             <p>
                 Más dudas tenemos sobre dónde se verá. La serie será en Japón un Net <br> anime. Es decir, no se emitirá en televisión en abierto sino directamente <br> en red. Pero el mercado español va por otras dinámicas al japonés. Lo <br> normal
                 sería que pudiéramos seguir al día la emisión de los <br> episodios en Crunchyroll, aunque quizás con la serie más avanzada <br> pueda llegar con retraso a otra plataforma. En este sentido, la que más <br> nos encaja es una Amazon Prime
-                Video que también ha apostado en su catálogo por la franquicia.
+                Video que también ha apostado en su <br> catálogo por la franquicia.
+                <a href="#inicio">Volver</a>
             </p>
             <hr class="rounded">
-            <h4>Dragon ball: Tráiler</h4>
+            <h4 id="Trailer">Dragon ball: Tráiler</h4>
             <section>
                 <video controls poster="Gokuvegeta.jpg" width="300" height="200" muted>
 							<source src="TrailerDaima.ogg" type="video/ogg"/>
@@ -70,7 +73,27 @@
 							<p>Tu navegador no soporta el video HTML5.</p>
 					</video>
             </section>
-
+            <p>
+                Con un repaso a todo lo que nos ha deparado los 40 años de Dragon Ball, <br> los cuarenta años de Goku, Bulma y compañía, se presentaba este tráiler <br> que en su segunda mitad se permitía adelantarnos bastante de la serie. <br> Con una
+                animación (aparentemente) moderna y trabajada (no como el <br> principio de 'Dragon Ball: Super), lo cierto es que la serie todavía tiene <br> que desvelar sus principales conflictos y antagonistas. Lo que sabemos, <br> eso sí, lo vamos
+                a comentar a continuación.
+            </p>
+            <hr class="rounded">
+            <h4 id="Argumentos">Dragon ball: Argumentos</h4>
+            <img src="torre.jpg" alt="torre" width="80%">
+            <p>
+                En 'Dragon Ball GT' Goku se convertía en niño de nuevo y recorría el <br> universo en busca de unas nuevas Bolas de Dragón que, finalmente, se <br> corrompían. Parece que Toriyama al fin se ha atrevido a darnos su versión <br> de esta
+                serie que se hizo sin su persona con su propia versión. <br> Entendemos que se sitúa tras los sucesos de 'Dragon Ball Super', aunque <br> no sabemos si antes o después de que Goku adopte a Ub, la <br> reencarnación de Bu como aprendiz
+                (el final cronológico de lo creado <br> hasta ahora por Toriyama en el manga). A diferencia de GT, donde solo <br> Goku se volvía pequeño, parece que en 'Daima' son varios personajes <br> como Goku, Vegeta o Bulma los que vuelven a convertirse
+                en niños. Y los <br> más pequeños, como Goten o Trunks incluso vuelven a ser bebés.
+            </p>
+            <p>
+                Todo parte, por supuesto, de las bolas de dragón y Shenron, aunque no <br> sabemos todavía las amenazas y antagonistas con los que tendrán que <br> luchar. Toriyama, eso sí, debe estar ilusionado por la excusa de poder <br> volver a hacer
+                que Goku luche con su báculo sagrado (Nyoibo), su bastón <br> extensible que tanto nos recuerda a todos a la infancia. Habrá que <br> esperar para conocer más detalles, incluida la duración de una serie <br> que bien podría ser una simple
+                historia corta, o por el contrario toda una saga <br> repleta de aventuras.
+                <a href="#inicio">Volver</a>
+            </p>
+            <img src="bebes.jpg" alt="bebes" width="80%">
         </div>
         <div class="column side">
             <h2>noticias</h2>

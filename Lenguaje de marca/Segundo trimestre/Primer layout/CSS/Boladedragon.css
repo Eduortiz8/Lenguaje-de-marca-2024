@@ -4,7 +4,7 @@
 
 body {
     margin: 100;
-    background-image: url("fondo.jpg");
+    background-image: url("Fondo.jpg");
     background-position: center;
 }
 
@@ -13,14 +13,8 @@ body {
     background-image: url("cabecera.jpg");
     background-repeat: no-repeat;
     padding: 50px;
-    padding-left: 10px;
     text-align: center;
     border-radius: 5%;
-}
-
-img.a {
-    width: 10%;
-    padding-left: auto;
 }
 
 .topnav {
@@ -73,48 +67,24 @@ img.a {
     width: 100%;
 }
 
-.dropbtn {
-    background-color: #4CAF50;
-    color: gold;
-    padding: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 2px solid;
-    border-radius: 12px;
-}
-
-.dropdown {
+.sumario li {
+    list-style-type: none;
     position: relative;
-    display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+.sumario li a {
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    padding: auto;
+    width: auto;
+    border: 2px solid goldenrod;
+    border-radius: auto;
+    color: green;
+    background-color: greenyellow;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.sumario li a:hover {
+    background-color: gold;
 }
 
 hr {

@@ -45,7 +45,7 @@ img.a {
 .column {
     float: left;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-image: radial-gradient(circle, red, yellow, green);
     border: 1px solid;
 }
 
@@ -68,7 +68,7 @@ img.a {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #f90303;
     float: inline-start;
     width: 100%;
 }
@@ -106,7 +106,7 @@ img.a {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #db4343;
 }
 
 .dropdown:hover .dropdown-content {
@@ -118,6 +118,6 @@ img.a {
 }
 
 hr {
-    border-top: 8px solid rgb(209, 241, 6);
+    border-top: 8px solid rgb(49, 6, 241);
     border-radius: 5px;
 }

@@ -1,18 +1,12 @@
 * {
     box-sizing: border-box;
-    box-sizing: border-box;
 }
-
 
 body {
     margin: 100;
     background-image: url("fondo.jpg");
     background-position: center;
-    margin: 100;
-    background-image: url("fondo.jpg");
-    background-position: center;
 }
-
 
 .header {
     background-color: #eb0909;
@@ -26,13 +20,13 @@ body {
     border-radius: 5%;
 }
 
-
 img.a {
     position: relative;
     right: 300px;
     width: 15%;
 }
-img.b{
+
+img.b {
     position: relative;
     left: 350px;
     width: 10%;
@@ -41,10 +35,7 @@ img.b{
 .topnav {
     overflow: hidden;
     background-color: #333;
-    overflow: hidden;
-    background-color: #333;
 }
-
 
 .topnav a {
     float: left;
@@ -53,49 +44,29 @@ img.b{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    background-color: #ddd;
-    color: black;
 }
-
 
 .column {
     float: left;
     padding: 10px;
     background-image: radial-gradient(circle, red, yellow, green);
     border: 1px solid;
-    float: left;
-    padding: 10px;
-    background-image: radial-gradient(circle, red, yellow, green);
-    border: 1px solid;
 }
-
 
 .column.side {
     width: 25%;
 }
 
-
 .column.middle {
     width: 50%;
     text-align: center;
     font-size: large;
-    width: 50%;
-    text-align: center;
-    font-size: large;
 }
-
 
 .row::after {
     content: "";
@@ -160,7 +131,8 @@ hr {
     border-top: 8px solid rgb(49, 6, 241);
     border-radius: 5px;
 }
-.tarjeta{
+
+.tarjeta {
     width: 300px;
     margin: 20px auto;
     background-color: #fff;
@@ -168,16 +140,19 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.titulo{
+
+.titulo {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
 }
-.contenido{
+
+.contenido {
     color: #555;
     margin-bottom: 20px;
 }
-.boton{
+
+.boton {
     background-color: #007BFF;
     color: #fff;
     border: none;
@@ -186,6 +161,15 @@ hr {
     font-size: 1rem;
     transition: background-color 0.3s ease;
 }
-.boton:hover{
+
+.boton:hover {
     background-color: #0056b3;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: normal;
+    font-weight: normal;
+    text-align: justify;
+    padding-left: 150px;
 }

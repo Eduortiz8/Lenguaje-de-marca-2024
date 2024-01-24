@@ -151,7 +151,10 @@ hr {
     color: #555;
     margin-bottom: 20px;
 }
-
+div.center{
+    display: flex;
+    justify-content: center;
+}
 .boton {
     background-color: #007BFF;
     color: #fff;

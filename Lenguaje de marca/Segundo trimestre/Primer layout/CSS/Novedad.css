@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 100;
     background-image: url("fondo.jpg");
     background-position: center;
 }
@@ -151,10 +150,12 @@ hr {
     color: #555;
     margin-bottom: 20px;
 }
-div.center{
+
+div.center {
     display: flex;
     justify-content: center;
 }
+
 .boton {
     background-color: #007BFF;
     color: #fff;

@@ -164,9 +164,13 @@ p {
     font-weight: normal;
     text-align: justify;
     padding-left: 150px;
-    @media screen and (max-width: 600px) {
-        .column.side, .column.middle {
-          width: 100%;
-        }
-      }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
 }

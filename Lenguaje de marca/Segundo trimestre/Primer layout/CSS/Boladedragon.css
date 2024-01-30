@@ -54,7 +54,7 @@ img.b {
     float: left;
     padding: 10px;
     background-image: radial-gradient(circle, red, yellow, green);
-    border: 1px solid;
+
 }
 
 .column.side {
@@ -134,7 +134,7 @@ hr {
 .tarjeta {
     width: 300px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #0dcad8;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -146,18 +146,10 @@ hr {
     margin-bottom: 10px;
 }
 
-.contenido {
-    color: #555;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
 .boton {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #ace707;
     border: none;
     padding: 10px 15px;
-    cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
 }

@@ -21,14 +21,16 @@ body {
 
 img.a {
     position: relative;
-    right: 300px;
-    width: 15%;
+    right: 17.5%;
+    max-width: 15%;
+    height: auto;
 }
 
 img.b {
     position: relative;
-    left: 350px;
-    width: 10%;
+    left: 29.5%;
+    max-width: 15%;
+    height: auto;
 }
 
 .topnav {
@@ -79,6 +81,7 @@ img.b {
     background: #f90303;
     float: inline-start;
     width: 100%;
+    height: auto;
 }
 
 .dropbtn {
@@ -100,10 +103,11 @@ img.b {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    background-color: #4CAF50;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 12px;
 }
 
 .dropdown-content a {
@@ -131,20 +135,22 @@ hr {
 }
 
 .tarjeta {
-    width: 300px;
     margin: 20px auto;
     background-color: #0dcad8;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .titulo {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
 }
-
 
 .boton {
     background-color: #ace707;
@@ -160,17 +166,108 @@ hr {
 
 p {
     font-family: Arial, Helvetica, sans-serif, Georgia, 'Times New Roman', Times, serif;
-    font-size: normal;
-    font-weight: normal;
     text-align: justify;
-    padding-left: 150px;
-
+    font-weight: normal;
+    padding-left: 10%;
 }
 
-@media screen and (max-width: 600px) {
 
-    .column.side,
-    .column.middle {
+/*Para moviles:*/
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /*Para tablets:*/
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
         width: 100%;
     }
+}
+
+@media only screen and (min-width: 768PX) {
+    /*Para ordenador*/
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+img.cuerpo {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
 }
